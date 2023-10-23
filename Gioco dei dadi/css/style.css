@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightslategray;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.container {
+    width: 90%;
+    margin: 3rem auto;
+    background-color: darkgreen;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    border: 10px solid rgb(91, 39, 39);
+}
+
+.table {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    width:200px;
+    font-size: 2rem;
+    align-self: center;
+    margin-top: 5rem;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    width: 40%;
+    text-align: center;
+}
+
+.square {
+    box-shadow: 5px 5px 10px;
+    height: 100px;
+    width: 100px;
+    border: 4px solid black;
+    background-color: white;
+    border-radius: 10px;
+    background-position: center;
+    background-size: contain;
+}
+
+.one {
+    background-image: url(../img/uno.png);
+}
+
+.two {
+    background-image: url(../img/due.png);
+}
+
+.three {
+    background-image: url(../img/tre.png);
+}
+
+.four {
+    background-image: url(../img/quattro.png);
+}
+
+.five {
+    background-image: url(../img/cinque.png);
+}
+
+.six {
+    background-image: url(../img/sei.png);
+}
+
