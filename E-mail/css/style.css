@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    margin: 5rem auto;
+    background-color: lightslategray;
+    min-height: 500px;
+    vertical-align: middle;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+button {
+    font-size: 2rem;
+    margin-top: 2rem;
+    border: 2px solid black;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+}
+
+h2 {
+    margin-top: 2rem;
+    color: darkblue;
+    font-size: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+label {
+    font-size: 1.5rem;
+}
