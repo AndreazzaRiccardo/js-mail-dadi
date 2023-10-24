@@ -11,21 +11,23 @@ sendBtn.addEventListener("click", function(event) {
     event.preventDefault();
     resultMess.classList.remove("hidden");
     const userEmail = userMailElem.value;
+    found = false;
 
     for (i = 0; i < mailAccess.length; i++) {
         const currMail = mailAccess[i];
         
         if (currMail === userEmail) {
             found = true;
+            break;
         }
     }
 
     if(found) {
-        document.querySelector("h2").innerHTML = "ACCESSO CONSENTITO"
+        resultMess.innerHTML = "ACCESSO CONSENTITO"
     } else {
-        document.querySelector("h2").innerHTML = "ACCESSO NEGATO ! LA MAIL NON E' PRESENTE NEI NOSTRI ARCHIVI"
+        resultMess.innerHTML = "ACCESSO NEGATO ! LA MAIL NON E' PRESENTE NEI NOSTRI ARCHIVI"
     }
-
+    
 })
 
 clearBtn.addEventListener("click", function(event){

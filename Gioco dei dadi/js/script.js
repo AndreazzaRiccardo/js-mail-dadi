@@ -1,13 +1,13 @@
-let numberPlayer = Math.round(Math.random() * 5) + 1;
-let numberBot = Math.round(Math.random() * 5) + 1;;
+const numberPlayer = Math.round(Math.random() * 5) + 1;
+const numberBot = Math.round(Math.random() * 5) + 1;;
 let message = "";
 
 if (numberPlayer < numberBot) {
     message = "Mi dispiace, hai perso"
 } else if (numberPlayer > numberBot) {
-    message = "Complimenti, mi hai battuto"
+    message = "Complimenti, mi hai battuto!!!"
 } else if (numberPlayer === numberBot) {
-    message = "Questa volta siamo pari, tiriamo ancora!!!"
+    message = "Questa volta siamo pari, tiriamo ancora!"
 }
 
 document.querySelector("h1").innerHTML = message;
