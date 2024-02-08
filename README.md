@@ -1,14 +1,17 @@
-### ESERCIZIO: 
+### EXERCISE: 
 
-**Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
-Stabilire il vincitore, in base a chi fa il punteggio più alto.**
+**Generate a random number from 1 to 6, both for the player and for the computer.
+Determine the winner, based on who makes the highest score. **
 
-### LOGICA:
+### LOGIC:
 
-1. Creare due variabili una per il player e l'altra per il bot;
-2. Generare due numeri casuali per ciascuno;
-3. Determinare il vincitore in base a chi ottiene il numero più alto;
-4. Preparare il messaggio da visualizzare;
+1. Create two variables one for the player and the other for the bot;
+2. Generate two random numbers for each;
+3. Determine the winner based on who gets the highest number;
+4. Prepare the message to be displayed;
 
 ### OUTPUT:
-Stampare il messaggio a schermo
+Print the message on the screen
+
+
+![Screenshot 2024-02-08 183720](https://github.com/AndreazzaRiccardo/js-mail-dadi/assets/136316597/d798e455-754a-41a4-a56d-585849ec55ff)
